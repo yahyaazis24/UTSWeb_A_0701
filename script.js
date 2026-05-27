@@ -79,3 +79,52 @@ contactForm.addEventListener("submit", function(e) {
   }
 
 });
+
+// Scroll Reveal Animation
+function revealSections() {
+
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(section => {
+
+    const windowHeight = window.innerHeight;
+    const revealTop = section.getBoundingClientRect().top;
+    const revealPoint = 150;
+
+    if(revealTop < windowHeight - revealPoint) {
+
+      section.classList.add("active");
+
+    }
+
+  });
+
+}
+
+window.addEventListener("scroll", revealSections);
+
+// Back To Top Button
+const backToTopButton = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+  if(window.scrollY > 300) {
+
+    backToTopButton.style.display = "block";
+
+  } else {
+
+    backToTopButton.style.display = "none";
+
+  }
+
+});
+
+backToTopButton.addEventListener("click", () => {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+});
