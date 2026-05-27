@@ -1,1 +1,1 @@
-console.log("De'Tech berjalan!");
+console.log("Website De'Tech berhasil dijalankan!");

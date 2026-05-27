@@ -57,3 +57,18 @@ body {
   }
 
 }
+
+/* About Section */
+.about {
+  background-color: #f8fafc;
+}
+
+.about h2 {
+  font-size: 42px;
+  color: #0f172a;
+}
+
+.about p {
+  color: #475569;
+  line-height: 1.8;
+}
