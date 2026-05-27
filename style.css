@@ -158,3 +158,18 @@ body {
 .accordion-button:focus {
   box-shadow: none;
 }
+
+/* Contact Section */
+.contact {
+  background-color: #f8fafc;
+}
+
+.contact .form-control {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.contact button {
+  padding: 12px 30px;
+  border-radius: 10px;
+}

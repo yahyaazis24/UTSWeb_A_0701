@@ -51,3 +51,31 @@ darkModeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 
 });
+
+// Contact Form Validation
+const contactForm = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
+
+contactForm.addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  if(name === "" || email === "" || message === "") {
+
+    formMessage.innerHTML = "Harap isi semua form!";
+    formMessage.style.color = "red";
+
+  } else {
+
+    formMessage.innerHTML = "Pesan berhasil dikirim!";
+    formMessage.style.color = "green";
+
+    contactForm.reset();
+
+  }
+
+});
