@@ -1,8 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
 
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+}
+
+/* Hero */
 .hero {
   height: 100vh;
   background: linear-gradient(to right, #0f172a, #1e3a8a);
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  padding: 12px 30px;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
 }
