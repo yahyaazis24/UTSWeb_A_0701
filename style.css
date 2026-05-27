@@ -13,28 +13,36 @@ body {
   padding: 20px 0;
 }
 
-/* Hero */
+.navbar-brand {
+  font-size: 28px;
+}
+
+/* Hero Section */
 .hero {
   height: 100vh;
   background: linear-gradient(to right, #0f172a, #1e3a8a);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero h1 {
   font-size: 60px;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .hero p {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #d1d5db;
 }
 
 .hero .btn {
   padding: 12px 30px;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 /* Responsive */
