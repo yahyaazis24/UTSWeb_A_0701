@@ -231,3 +231,26 @@ body {
   background-color: #1d4ed8;
   transform: translateY(-5px);
 }
+
+/* Team Section */
+.team {
+  background-color: #ffffff;
+}
+
+.team-card {
+  background-color: #f8fafc;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
