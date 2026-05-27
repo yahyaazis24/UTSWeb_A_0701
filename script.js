@@ -42,3 +42,12 @@ filterButtons.forEach(button => {
   });
 
 });
+
+// Dark Mode
+const darkModeToggle = document.getElementById("darkModeToggle");
+
+darkModeToggle.addEventListener("click", () => {
+
+  document.body.classList.toggle("dark-mode");
+
+});

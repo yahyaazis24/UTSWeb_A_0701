@@ -120,3 +120,28 @@ body {
 .filter-btn {
   margin: 5px;
 }
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #0f172a;
+  color: white;
+}
+
+.dark-mode .about,
+.dark-mode .portfolio {
+  background-color: #1e293b;
+}
+
+.dark-mode .services {
+  background-color: #0f172a;
+}
+
+.dark-mode .service-card,
+.dark-mode .portfolio-card {
+  background-color: #1e293b;
+  color: white;
+}
+
+.dark-mode p {
+  color: #cbd5e1;
+}
