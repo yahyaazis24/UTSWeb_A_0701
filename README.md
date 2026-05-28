@@ -40,6 +40,18 @@ Desain dimodifikasi pada:
 - fitur interaktif
 
 
+## Struktur Section Website
+
+1. Hero Section
+2. About Section
+3. Services Section
+4. Portfolio Section
+5. Team Section
+6. FAQ Section
+7. Contact Section
+8. Footer Section
+
+
 ## Tampilan Website
 
 ### Hero Section
