@@ -39,4 +39,15 @@ Desain dimodifikasi pada:
 - konten
 - fitur interaktif
 
-<img width="940" height="5589" alt="ss homepage De&#39;tech" src="https://github.com/user-attachments/assets/a43f5ad1-7b24-486d-b11a-14615565f70a" />
+## Tampilan Website
+
+### Homepage
+
+<img width="940" height="5589" alt="ss homepage De&#39;tech" src="https://github.com/user-attachments/assets/75badfe5-6abb-44e1-9eb2-9e61cf1b7f40" />
+
+
+### About Page
+
+<img width="940" height="1648" alt="ss about pelajari lebih lanjut" src="https://github.com/user-attachments/assets/d5b09816-0a7a-4b4b-b435-8b7598809e87" />
+
+
