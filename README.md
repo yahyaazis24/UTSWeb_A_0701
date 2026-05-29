@@ -35,6 +35,7 @@ De'Tech adalah website company profile yang menyediakan layanan digital modern u
 ## Referensi Desain
 
 - https://startbootstrap.com/theme/agency
+- desain di modifikasi pada bagian warna, layout, dan isi
 
 Desain dimodifikasi pada:
 - warna
